@@ -1,0 +1,45 @@
+<html>
+ <head>
+ <title> Ilchenko 3F </title>
+ <script language="JavaScript">
+ 
+ function okno_zamknij()
+ {
+ window.close()
+ }
+ document.write("Jakie są rodzaje okienek?:".fontcolor("black").fontsize(7).bold()+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp; Okienko <b> alert </b> – wyświetlająca okienko dialogowe z informacją i przyciskiem OK, ".fontcolor("black").fontsize(7)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp; Okienko <b> prompt </b> – generująca okno, w którym użytkownik może wpisać wartość, zwracaną <br> &nbsp;&nbsp;&nbsp;&nbsp; następnie do programu. ".fontcolor("black").fontsize(7)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp; Okienko <b> confirm </b> służy do tego, aby użytkownik coś potwierdził (stąd nazwa confirm). <br><br><br>".fontcolor("black").fontsize(7)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;jakich zasad należy przestrzegać Przy nadawaniu nazw zmiennym ?:".fontcolor("black").fontsize(6).bold()+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp; 1. Nazwa zmiennej musi się zaczynać od litery, znaku $ lub _, może zawierać tylko litery (bez <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; polskich znaków), cyfry oraz $ i _. <br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Poprawne nazwy zmiennych:</u> zmienna1, $wynik, _rozmiar, wynik1, Rekord, $_gracz <br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Błędne nazwy zmiennych:</u> 1zmienna, wynik gry, wysokosc&szerokosc, wynik.rekord, &gracz,<br> &nbsp;&nbsp;&nbsp;&nbsp;wysokość, imie+nazwisko. ".fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;2. Wielkość liter ma znaczenie.".fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;<u>Rekord i rekord </u> to dwie różne zmienne! Jest to bardzo częsta przyczyna błędów w kodzie ".fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;początkujących programistów.".fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;3. Należy nie używać słów kluczowych JavaScript jako nazw zmiennych.<br><br><br><br>".fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;Typy zmiennych w Javascript:".fontcolor("black").fontsize(5).bold()+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;W JavaScript nie ma możliwości definiowania różnych typów zmiennych tak jak w C++, typy:".fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;zmiennych są definiowane w trakcie ich przypisywania. " .fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;Podstawowe zmienne liczbowe w JavaScript to: " .fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;Number → Typ liczbowy <br> &nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;zmienna całkowite <br> &nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;zmiennoprzecinkowe <br><br>" .fontcolor("black").fontsize(5)+"<br>"); 
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;String → Typ tekstowy".fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;Boolea → Typ logiczny".fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;Null  → Pusta zawartość".fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;Undefined → Typ niezidentyfikowany".fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;Object → Obiekt".fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;Konwersji zmiennych.".fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;Wczytanie zmiennej z użyciem <b>prompt</b> wykonywane jest jako ciąg znaków dlatego konieczna jest".fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;konwersji z ciągu znaków na wartości liczbowe aby wykonywac obliczenia.<br>".fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;<u>parseFloat(zmienna)<u> - konwersja zmiennej do typu float".fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;<u>parseInt(zmienna)<u> - konwersja zmiennej do typu int (liczbowego)".fontcolor("black").fontsize(5)+"<br>");
+ document.write(" &nbsp;&nbsp;&nbsp;&nbsp;<u>toString(zmienna)<u> - konwersja zmiennej do typu łańcuchowego".fontcolor("black").fontsize(5)+"<br>");
+ </script>
+ </head>
+ <body>
+ <form>
+ <br>
+ <br>
+ <input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+ </form>
+</body>
+</html>
